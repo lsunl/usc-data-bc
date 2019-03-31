@@ -80,6 +80,8 @@ def station():
     #         "longitude": s[4],
     #         "elevation": s[5]
     #     })
+
+    # List Comprehension
     formatted_data = [{
             "id": s[0],
             "name": s[1],
